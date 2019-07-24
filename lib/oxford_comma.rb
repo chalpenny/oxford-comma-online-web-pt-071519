@@ -12,11 +12,11 @@ def oxford_comma(array)
   elsif
     array.count > 2
     last_element = array.pop
-    array.join(", ") << ", and " + last_element
+    fruits << array.join(", ") << ", and " + last_element
   #  last_element << (" and ")
   #  array << ("and ") + last_element
   #  array << last_element
-   return last_element
+   return fruits
   else
     array.join
   end
