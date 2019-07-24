@@ -16,7 +16,7 @@ def oxford_comma(array)
   #  last_element << (" and ")
   #  array << ("and ") + last_element
   #  array << last_element
-   return array
+   return last_element
   else
     array.join
   end
