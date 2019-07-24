@@ -13,10 +13,8 @@ def oxford_comma(array)
     array.count > 2
     last_element = array.pop
     array.join(", ")
-    last_element.unshift(" and ")
-    #last_element.join(", ")
-    #array << last_element
-    #array.join(",")
+  #  last_element << (" and ")
+    array << (" and ") + last_element
   else
     array.join
   end
